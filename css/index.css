@@ -32,3 +32,6 @@ margin: 5px;
 .cardContent > ul {
 padding-left: 20px;
 }
+ul {
+  list-style: inside;
+}
