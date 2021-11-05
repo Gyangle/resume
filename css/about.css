@@ -1,0 +1,8 @@
+#gallaryPhotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#gallaryPhotos > img {
+  overflow: hidden;
+}
