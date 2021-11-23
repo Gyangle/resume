@@ -3,6 +3,20 @@ main {
   flex-direction: column;
 }
 
-main > a {
+#linkBoard {
+  display: flex;
+  flex-direction: column;
+}
+
+section > a {
   margin: 10px;
+}
+
+@media screen and (min-width: 600px){
+  #linkBoard {
+    flex-direction: row;
+  }
+  #linkBoard > a {
+    margin-right: 30px;
+  }
 }
