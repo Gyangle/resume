@@ -22,4 +22,20 @@ a > img {
   #gallaryPhotos {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .meetGrant img {
+    width: 50%;
+  }
+
+  .meetGrant div {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .meetGrant {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
