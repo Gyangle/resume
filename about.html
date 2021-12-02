@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- css reset -->
   <link rel="stylesheet" type="text/css" href="css/html5reset.css">
   <!-- bootstrap -->
@@ -14,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
   <!-- css -->
+  <link href="css/lightbox.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/about.css">
   <title>About Me</title>
@@ -51,15 +54,14 @@
         Gallary
       </h2>
       <div id="gallaryPhotos">
-
-        <img src="images/2.jpg" alt="playing lacrosse">
-        <img src="images/3.jpg" alt="beach">
-        <img src="images/1.jpg" alt="concrete canoe">
-        <img src="images/4.jpg" alt="Tibet">
-        <img src="images/5.jpg" alt="protrait">
-        <img src="images/6.jpg" alt="with my dog">
-        <img src="images/7.jpg" alt="lacrosse coach">
-        <img src="images/8.jpg" alt="hiking">
+        <a href="images/2.jpg" data-lightbox="roadtrip"><img src="images/2.jpg" alt="playing lacrosse"></a>
+        <a href="images/3.jpg" data-lightbox="roadtrip"><img src="images/3.jpg" alt="beach"></a>
+        <a href="images/1.jpg" data-lightbox="roadtrip"><img src="images/1.jpg" alt="concrete canoe"></a>
+        <a href="images/4.jpg" data-lightbox="roadtrip"><img src="images/4.jpg" alt="Tibet"></a>
+        <a href="images/5.jpg" data-lightbox="roadtrip"><img src="images/5.jpg" alt="protrait"></a>
+        <a href="images/6.jpg" data-lightbox="roadtrip"><img src="images/6.jpg" alt="with my dog"></a>
+        <a href="images/7.jpg" data-lightbox="roadtrip"><img src="images/7.jpg" alt="lacrosse coach"></a>
+        <a href="images/8.jpg" data-lightbox="roadtrip"><img src="images/8.jpg" alt="hiking"></a>
       </div>
     </div>
   </main>
@@ -72,5 +74,6 @@
   </div>
   <!-- Copyright -->
 </footer>
+<script src="js/lightbox.js"></script>
 </body>
 </html>

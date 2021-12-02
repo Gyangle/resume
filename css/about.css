@@ -4,7 +4,7 @@
 
 }
 
-#gallaryPhotos > img {
+a > img {
   /* overflow: hidden; */
   object-fit: cover;
   width: 100%;
