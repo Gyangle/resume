@@ -1,9 +1,4 @@
-main {
-  display: flex;
-  flex-direction: column;
-}
-
-#linkBoard {
+main, #linkBoard, #skills {
   display: flex;
   flex-direction: column;
 }
@@ -12,11 +7,20 @@ section > a {
   margin: 10px;
 }
 
+#skills > div {
+  margin: 30px;
+}
+
 @media screen and (min-width: 600px){
   #linkBoard {
     flex-direction: row;
   }
   #linkBoard > a {
     margin-right: 30px;
+  }
+  #skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
