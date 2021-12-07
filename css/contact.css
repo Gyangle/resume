@@ -1,4 +1,4 @@
-body{
+.writeFarming{
   height: 90vh;
   background: linear-gradient(-45deg, #a52df0,  #5a91cd, #96baf8, #a6f1fe);
   animation: gradientBG 7s ease infinite;
